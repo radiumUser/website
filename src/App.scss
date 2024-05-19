@@ -1,0 +1,69 @@
+$primary-color: #ff1a75;
+
+@import "animate.css";
+@import "node_modules/loaders.css/src/animations/pacman.scss";
+
+@font-face {
+    font-family: "Helvetica Neue";
+    src: url("../src/assets/fonts/helvetica-neu.ttf");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "La Belle Aurore";
+    src: url("../src/assets/fonts/LaBelleAurore.woff2") format("woff2"),
+        url("../src/assets/fonts/LaBelleAurore.woff") format("woff");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Coolvetica";
+    src: url("../src/assets/fonts/CoolveticaRg-Regular.woff2") format("woff2"),
+        url("../src/assets/fonts/CoolveticaRg-Regular.woff") format("woff");
+    font-weight: normal;
+    font-style: normal;
+}
+
+input,
+textarea {
+    font-family: "Helvetica Neue", sans-serif;
+}
+
+.loader-active {
+    display: block;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    width: 50px;
+    height: 50px;
+    animation: fadeOut 1s 1s;
+    animation-fill-mode: forwards;
+}
+
+.flat-button {
+    color: var(--secondary);
+    background-color: transparent;
+    font-size: 13px;
+    font-weight: 400;
+    letter-spacing: 4px;
+    font-family: sans-serif;
+    text-decoration: none;
+    padding: 10px 30px;
+    border: 1px solid var(--secondary);
+    margin-top: 25px;
+    float: left;
+    animation: fadeIn 1s 1.8s backwards;
+    white-space: nowrap;
+    cursor: pointer;
+    transition: 0.5s all ease;
+
+    &:hover {
+        background-color: var(--secondary);
+        color: var(--white);
+    }
+}

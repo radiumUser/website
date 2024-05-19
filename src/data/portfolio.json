@@ -1,0 +1,28 @@
+{
+    "portfolio": [
+        {
+            "cover": "../src/assets/images/portfolio/1.png",
+            "title": "Animated Website",
+            "application": "HTML5, CSS3, GSAP 3, Locomotive js",
+            "url": "https://google.com"
+        },
+        {
+            "cover": "../src/assets/images/portfolio/1.png",
+            "title": "Tic Tac Toe Game",
+            "application": "CSS3, JSX, React, Node",
+            "url": "https://google.com"
+        },
+        {
+            "cover": "../src/assets/images/portfolio/1.png",
+            "title": "Tell Me A Joke",
+            "application": "React, Node, Joke API",
+            "url": "https://google.com"
+        },
+        {
+            "cover": "../src/assets/images/portfolio/1.png",
+            "title": "Portfolio Website",
+            "application": "JSX, React, Sass, Node",
+            "url": "https://google.com"
+        }
+    ]
+}
